@@ -1,0 +1,33 @@
+<div class="container">
+    <div >
+        <a  class="btn btn-primary" routerLink="/create">Create</a>
+    </div>
+    <div>
+        <table class="table table-stripped">
+            <thead>
+                <tr class="table-primary">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Designation</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let emp of employees">
+                    <td>{{emp.id}}</td>
+                    <td>{{emp.name}}</td>
+                    <td>{{emp.email}}</td>
+                    <td>{{emp.mobile}}</td>
+                    <td>{{emp.designation}}</td>
+                    <td>
+                        <a class="btn btn-primary" routerLink="/view/{{emp.id}}">View</a>
+                        <a class="btn btn-primary" routerLink="/edit/{{emp.id}}">Edit</a>
+                        <a class="btn btn-danger" (click)="deleteEmployee(emp.id)">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

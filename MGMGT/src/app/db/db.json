@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Shubham Narayan",
+      "email": "shubham@example.com",
+      "mobile": "+91-9876543210",
+      "designation": "Software Engineer"
+    },
+    {
+      "id": 2,
+      "name": "Amit Patil",
+      "email": "amit@example.com",
+      "mobile": "+91-9123456789",
+      "designation": "Project Manager"
+    },
+    {
+      "id": "e905",
+      "name": "shubham",
+      "email": "shshhs@shshsgmail.com",
+      "mobile": "+917720834143",
+      "designation": "java"
+    },
+    {
+      "id": "f62a",
+      "name": "neha",
+      "email": "shshhs@shshsgmail.com",
+      "mobile": "+917720834143",
+      "designation": "trainnee"
+    },
+    {
+      "id": "0631",
+      "name": "mahesh",
+      "email": "shshhs@shshsgmail.com",
+      "mobile": "+917720834143",
+      "designation": "trainnee"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+
+
+<div class="container">
+<button class="btn btn-primary" [routerLink]="['/dashboard']">Go to Dashboard</button>
+
+<ul *ngIf="empDetails">
+    <li>{{empDetails.name}} </li>
+    <li> {{empDetails.email}}</li>
+    <li>{{empDetails.mobile}} </li>
+    <li> {{empDetails.designation}}</li>
+</ul>
+</div>
